@@ -1,0 +1,1 @@
+execute as @a[scores={copper_sword=1..}] run function copper_age:craft
