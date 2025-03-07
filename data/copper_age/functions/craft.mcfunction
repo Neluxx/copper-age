@@ -1,13 +1,13 @@
 clear @s minecraft:knowledge_book 1
-execute as @s[scores={copper_sword=1..}] run function copper_tools:give_copper_sword
-execute as @s[scores={copper_pickaxe=1..}] run function copper_tools:give_copper_pickaxe
-execute as @s[scores={copper_axe=1..}] run function copper_tools:give_copper_axe
-execute as @s[scores={copper_shovel=1..}] run function copper_tools:give_copper_shovel
-execute as @s[scores={copper_hoe=1..}] run function copper_tools:give_copper_hoe
-execute as @s[scores={copper_helmet=1..}] run function copper_tools:give_copper_helmet
-execute as @s[scores={copper_chestplate=1..}] run function copper_tools:give_copper_chestplate
-execute as @s[scores={copper_leggings=1..}] run function copper_tools:give_copper_leggings
-execute as @s[scores={copper_boots=1..}] run function copper_tools:give_copper_boots
+execute as @s[scores={copper_sword=1..}] run function copper_age:give_copper_sword
+execute as @s[scores={copper_pickaxe=1..}] run function copper_age:give_copper_pickaxe
+execute as @s[scores={copper_axe=1..}] run function copper_age:give_copper_axe
+execute as @s[scores={copper_shovel=1..}] run function copper_age:give_copper_shovel
+execute as @s[scores={copper_hoe=1..}] run function copper_age:give_copper_hoe
+execute as @s[scores={copper_helmet=1..}] run function copper_age:give_copper_helmet
+execute as @s[scores={copper_chestplate=1..}] run function copper_age:give_copper_chestplate
+execute as @s[scores={copper_leggings=1..}] run function copper_age:give_copper_leggings
+execute as @s[scores={copper_boots=1..}] run function copper_age:give_copper_boots
 scoreboard players set @s copper_sword 0
 scoreboard players set @s copper_pickaxe 0
 scoreboard players set @s copper_axe 0
