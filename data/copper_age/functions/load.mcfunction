@@ -1,2 +1,10 @@
 scoreboard objectives add copper_sword minecraft.crafted:minecraft.knowledge_book
-tellraw @a {"text":"Copper Age data pack loaded!","color":"gold"}
+scoreboard objectives add copper_pickaxe minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_axe minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_shovel minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_hoe minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_helmet minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_chestplate minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_leggings minecraft.crafted:minecraft.knowledge_book
+scoreboard objectives add copper_boots minecraft.crafted:minecraft.knowledge_book
+tellraw @a {"text":"Kupfer-Werkzeuge Datapack geladen!","color":"gold"}
