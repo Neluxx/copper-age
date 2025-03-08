@@ -1,9 +1,0 @@
-execute as @a[scores={copper_sword=1..}] run function copper_age:craft
-execute as @a[scores={copper_pickaxe=1..}] run function copper_age:craft
-execute as @a[scores={copper_axe=1..}] run function copper_age:craft
-execute as @a[scores={copper_shovel=1..}] run function copper_age:craft
-execute as @a[scores={copper_hoe=1..}] run function copper_age:craft
-execute as @a[scores={copper_helmet=1..}] run function copper_age:craft
-execute as @a[scores={copper_chestplate=1..}] run function copper_age:craft
-execute as @a[scores={copper_leggings=1..}] run function copper_age:craft
-execute as @a[scores={copper_boots=1..}] run function copper_age:craft
