@@ -6,15 +6,11 @@
     " S "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:copper_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C": "minecraft:copper_ingot",
+    "S": "minecraft:stick"
   },
   "result": {
-    "item": "minecraft:knowledge_book",
+    "id": "minecraft:golden_axe",
     "count": 1
   }
 }
