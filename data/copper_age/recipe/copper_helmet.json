@@ -1,15 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    "C C",
-    "   "
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot"
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
   "result": {
-    "id": "minecraft:golden_helmet",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferhelm\"",
+      "minecraft:item_model": "copper_age:copper_helmet",
+      "minecraft:damage": 55,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_helmet"
   }
 }

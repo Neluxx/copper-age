@@ -1,15 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "   ",
-    "C C",
-    "C C"
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot"
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
   "result": {
-    "id": "minecraft:golden_boots",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferstiefel\"",
+      "minecraft:item_model": "copper_age:copper_boots",
+      "minecraft:damage": 65,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_boots"
   }
 }

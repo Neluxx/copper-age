@@ -1,16 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    " S ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot",
-    "S": "minecraft:stick"
+    "I": "minecraft:stick",
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "XXX",
+    " I ",
+    " I "
+  ],
   "result": {
-    "id": "minecraft:golden_pickaxe",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferspitzhacke\"",
+      "minecraft:item_model": "copper_age:copper_pickaxe",
+      "minecraft:damage": 50,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_pickaxe"
   }
 }

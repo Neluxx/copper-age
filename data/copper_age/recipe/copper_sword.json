@@ -1,16 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " C ",
-    " C ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot",
-    "S": "minecraft:stick"
+    "I": "minecraft:stick",
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "X",
+    "X",
+    "I"
+  ],
   "result": {
-    "id": "minecraft:golden_sword",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferschwert\"",
+      "minecraft:item_model": "copper_age:copper_sword",
+      "minecraft:damage": 50,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_sword"
   }
 }
