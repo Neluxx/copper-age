@@ -1,16 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CC ",
-    "CS ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot",
-    "S": "minecraft:stick"
+    "I": "minecraft:stick",
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "XX",
+    "XI",
+    " I"
+  ],
   "result": {
-    "id": "minecraft:golden_axe",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferaxt\"",
+      "minecraft:item_model": "copper_age:copper_axe",
+      "minecraft:damage": 50,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_axe"
   }
 }

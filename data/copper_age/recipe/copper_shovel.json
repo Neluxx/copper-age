@@ -1,16 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " C ",
-    " S ",
-    " S "
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot",
-    "S": "minecraft:stick"
+    "I": "minecraft:stick",
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "X",
+    "I",
+    "I"
+  ],
   "result": {
-    "id": "minecraft:golden_shovel",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferschaufel\"",
+      "minecraft:item_model": "copper_age:copper_shovel",
+      "minecraft:damage": 50,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_shovel"
   }
 }

@@ -1,15 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    "C C",
-    "C C"
-  ],
+  "category": "equipment",
   "key": {
-    "C": "minecraft:copper_ingot"
+    "X": "minecraft:copper_ingot"
   },
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
   "result": {
-    "id": "minecraft:golden_leggings",
-    "count": 1
+    "components": {
+      "minecraft:item_name": "\"Kupferbeinschutz\"",
+      "minecraft:item_model": "copper_age:copper_leggings",
+      "minecraft:damage": 75,
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_leggings"
   }
 }
