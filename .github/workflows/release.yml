@@ -1,4 +1,4 @@
-name: Create Release with data pack ZIP
+name: Create Release with ZIP files for data and resource pack
 
 on:
   push:
@@ -19,9 +19,10 @@ jobs:
         id: get_tag
         run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
-      - name: Create data pack ZIP
+      - name: Create data and resource pack ZIP files
         run: |
-          zip -r copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip . -x "*.git*" "*.github*"
+          zip -r copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip datapack/*
+          zip -r copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip resourcepack/*
 
       - name: Create Release
         id: create_release
@@ -31,7 +32,9 @@ jobs:
           name: Release ${{ steps.get_tag.outputs.TAG }}
           draft: false
           prerelease: false
-          files: copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip
+          files: |
+            copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip
+            copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
