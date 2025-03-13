@@ -21,8 +21,8 @@ jobs:
 
       - name: Create data and resource pack ZIP files
         run: |
-          zip -r copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip datapack/*
-          zip -r copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip resourcepack/*
+          zip -r copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip $(find datapack -type f)
+          zip -r copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip $(find resourcepack -type f)
 
       - name: Create Release
         id: create_release
