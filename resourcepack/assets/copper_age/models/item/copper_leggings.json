@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/copper_boots"
+    "layer0": "copper_age:item/copper_leggings"
   }
 }
