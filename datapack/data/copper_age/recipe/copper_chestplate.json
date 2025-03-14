@@ -13,7 +13,7 @@
     "components": {
       "minecraft:item_name": "\"Kupferharnisch\"",
       "minecraft:item_model": "copper_age:copper_chestplate",
-      "minecraft:damage": 80,
+      "minecraft:max_damage": 160,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       }

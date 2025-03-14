@@ -12,7 +12,7 @@
     "components": {
       "minecraft:item_name": "\"Kupferstiefel\"",
       "minecraft:item_model": "copper_age:copper_boots",
-      "minecraft:damage": 65,
+      "minecraft:max_damage": 130,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       }
