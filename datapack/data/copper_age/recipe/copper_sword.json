@@ -13,7 +13,7 @@
   "result": {
     "components": {
       "minecraft:item_name": "\"Kupferschwert\"",
-      "minecraft:item_model": "copper_age:copper_sword",
+      "minecraft:item_model": "minecraft:copper_sword",
       "minecraft:damage": 50,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
