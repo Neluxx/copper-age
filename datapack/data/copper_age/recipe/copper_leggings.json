@@ -13,7 +13,7 @@
     "components": {
       "minecraft:item_name": "\"Kupferbeinschutz\"",
       "minecraft:item_model": "copper_age:copper_leggings",
-      "minecraft:damage": 75,
+      "minecraft:max_damage": 150,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       }

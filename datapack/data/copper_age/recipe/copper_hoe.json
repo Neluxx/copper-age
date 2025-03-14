@@ -14,7 +14,7 @@
     "components": {
       "minecraft:item_name": "\"Kupferhacke\"",
       "minecraft:item_model": "copper_age:copper_hoe",
-      "minecraft:damage": 50,
+      "minecraft:max_damage": 200,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       }

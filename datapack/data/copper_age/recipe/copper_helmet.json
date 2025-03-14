@@ -12,7 +12,7 @@
     "components": {
       "minecraft:item_name": "\"Kupferhelm\"",
       "minecraft:item_model": "copper_age:copper_helmet",
-      "minecraft:damage": 55,
+      "minecraft:max_damage": 110,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
       }
