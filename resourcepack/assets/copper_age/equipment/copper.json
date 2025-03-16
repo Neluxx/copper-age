@@ -2,12 +2,12 @@
   "layers": {
     "humanoid": [
       {
-        "texture": "minecraft:copper"
+        "texture": "copper_age:copper"
       }
     ],
     "humanoid_leggings": [
       {
-        "texture": "minecraft:copper"
+        "texture": "copper_age:copper"
       }
     ]
   }

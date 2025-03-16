@@ -21,7 +21,7 @@
     "minecraft:equippable": {
       "slot": "chest",
       "equip_sound": "item.armor.equip_iron",
-      "asset_id": "minecraft:copper"
+      "asset_id": "copper_age:copper"
     },
     "count": 1,
     "id": "minecraft:iron_chestplate"
