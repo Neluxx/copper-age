@@ -18,6 +18,11 @@
         "items": "minecraft:copper_ingot"
       }
     },
+    "minecraft:equippable": {
+      "slot": "chest",
+      "equip_sound": "item.armor.equip_iron",
+      "asset_id": "minecraft:copper"
+    },
     "count": 1,
     "id": "minecraft:iron_chestplate"
   }

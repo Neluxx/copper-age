@@ -17,6 +17,11 @@
         "items": "minecraft:copper_ingot"
       }
     },
+    "minecraft:equippable": {
+      "slot": "head",
+      "equip_sound": "item.armor.equip_iron",
+      "asset_id": "minecraft:copper"
+    },
     "count": 1,
     "id": "minecraft:iron_helmet"
   }
