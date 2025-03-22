@@ -15,12 +15,12 @@
       "minecraft:max_damage": 130,
       "minecraft:repairable": {
         "items": "minecraft:copper_ingot"
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "equip_sound": "item.armor.equip_iron",
+        "asset_id": "copper_age:copper"
       }
-    },
-    "minecraft:equippable": {
-      "slot": "feet",
-      "equip_sound": "item.armor.equip_iron",
-      "asset_id": "copper_age:copper"
     },
     "count": 1,
     "id": "minecraft:iron_boots"
