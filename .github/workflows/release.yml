@@ -1,4 +1,4 @@
-name: Create Release with ZIP files for data and resource pack
+name: Create release with ZIP files for datapack and resourcepack
 
 on:
   push:
@@ -13,27 +13,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Get tag name
-        id: get_tag
-        run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+      - name: Set tag name
+        run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
-      - name: Create data and resource pack ZIP files
+      - name: Set repository name
+        run: echo "REPOSITORY=${GITHUB_REPOSITORY##*/}" >> $GITHUB_ENV
+
+      - name: Create ZIP files
         run: |
-          cd datapack && zip -r ../copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip * && cd ..
-          cd resourcepack && zip -r ../copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip * && cd ..
+          cd datapack && zip -r ../${{ env.REPOSITORY }}-datapack-${{ env.TAG }}.zip * && cd ..
+          cd resourcepack && zip -r ../${{ env.REPOSITORY }}-resourcepack-${{ env.TAG }}.zip * && cd ..
 
-      - name: Create Release
-        id: create_release
-        uses: softprops/action-gh-release@v1
+      - name: Create release
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.get_tag.outputs.TAG }}
+          tag_name: ${{ env.TAG }}
           draft: false
           prerelease: false
           files: |
-            copper-age-dp-${{ steps.get_tag.outputs.TAG }}.zip
-            copper-age-rp-${{ steps.get_tag.outputs.TAG }}.zip
+            ${{ env.REPOSITORY }}-datapack-${{ env.TAG }}.zip
+            ${{ env.REPOSITORY }}-resourcepack-${{ env.TAG }}.zip
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
