@@ -27,4 +27,4 @@ The gear is balanced between stone and iron, making copper a viable early-game u
 
 - Delete the datapack from ``.minecraft/saves/<world>/datapacks``
 - Delete the resourcepack from ``.minecraft/resourcepacks``
-- Note: Copper items will no longer be craftable (already crafted items remain unless removed manually but have no texture)
+- Note: Copper items will no longer be craftable (already crafted items remain but have no texture)
