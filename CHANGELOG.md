@@ -15,6 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.1.0](https://github.com/Neluxx/copper-age/releases/tag/v1.1.0) - 2025-03-28
+
+### Changed
+- Update copper armor textures in resource pack
+
+### Fixed
+- Remove unnecessary quotes from item names in copper recipes
+
 ## [v1.0.0](https://github.com/Neluxx/copper-age/releases/tag/v1.0.0) - 2025-03-26
 
 ### Added
