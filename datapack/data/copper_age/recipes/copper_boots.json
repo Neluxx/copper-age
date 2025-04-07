@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Kupferstiefel",
+      "minecraft:item_model": "IS NOT SUPPORTED IN 1.20.5! Use custom model data instead",
+      "minecraft:max_damage": 130,
+      "minecraft:repairable": {
+        "items": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement"
+      },
+      "minecraft:equippable": {
+        "slot": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement",
+        "equip_sound": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement",
+        "asset_id": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_boots"
+  }
+}

@@ -3,7 +3,7 @@
         "description": "Copper Age resourcepack",
         "pack_format": 55,
         "supported_formats": {
-            "min_inclusive": 46,
+            "min_inclusive": 32,
             "max_inclusive": 55
         }
     }
