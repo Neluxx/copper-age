@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Kupferspitzhacke",
+      "minecraft:item_model": "IS NOT SUPPORTED IN 1.20.5! Use custom model data instead",
+      "minecraft:max_damage": 200,
+      "minecraft:repairable": {
+        "items": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_pickaxe"
+  }
+}
