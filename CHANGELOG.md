@@ -15,6 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.2.0](https://github.com/Neluxx/copper-age/releases/tag/v1.2.0) - 2025-04-09
+
+### Added
+- Add german translation
+- Add english translation
+
 ## [v1.1.1](https://github.com/Neluxx/copper-age/releases/tag/v1.1.1) - 2025-04-07
 
 ### Changed
