@@ -12,7 +12,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferaxt",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_axe",
+        "fallback": "Copper Axe",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_axe",
       "minecraft:max_damage": 200,
       "minecraft:repairable": {

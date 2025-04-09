@@ -12,7 +12,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferschaufel",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_shovel",
+        "fallback": "Copper Shovel",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_shovel",
       "minecraft:max_damage": 200,
       "minecraft:repairable": {

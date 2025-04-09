@@ -10,7 +10,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferstiefel",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_boots",
+        "fallback": "Copper Boots",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_boots",
       "minecraft:max_damage": 130,
       "minecraft:repairable": {

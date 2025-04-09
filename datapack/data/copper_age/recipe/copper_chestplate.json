@@ -11,7 +11,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferharnisch",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_chestplate",
+        "fallback": "Copper Chestplate",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_chestplate",
       "minecraft:max_damage": 160,
       "minecraft:repairable": {

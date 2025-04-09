@@ -10,7 +10,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferhelm",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_helmet",
+        "fallback": "Copper Helmet",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_helmet",
       "minecraft:max_damage": 110,
       "minecraft:repairable": {
