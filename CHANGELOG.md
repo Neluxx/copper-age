@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Add French translation
+- Add Italian translation
+- Add Spanish translation
+- Add Polish translation
+- Add Dutch translation
+- Add Turkish translation
+- Add Portuguese translation
+- Add Indonesian translation
 
 ### Changed
 
@@ -18,8 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.2.0](https://github.com/Neluxx/copper-age/releases/tag/v1.2.0) - 2025-04-09
 
 ### Added
-- Add german translation
-- Add english translation
+- Add German translation
+- Add English translation
 
 ## [v1.1.1](https://github.com/Neluxx/copper-age/releases/tag/v1.1.1) - 2025-04-07
 
