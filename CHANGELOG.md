@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Add American English translation
+- Add New Zealand translation
+- Add British English translation
+- Add Canadian English translation
+- Add Australian English translation
+- Add Austrian translation
+- Add Swiss translation
 - Add French translation
 - Add Italian translation
 - Add Spanish translation
