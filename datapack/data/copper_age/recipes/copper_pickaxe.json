@@ -21,10 +21,10 @@
         "fallback": "Copper Pickaxe",
         "type": "translatable"
       },
-      "minecraft:item_model": "IS NOT SUPPORTED IN 1.20.5! Use custom model data instead",
+      "minecraft:item_model": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Use custom model data instead",
       "minecraft:max_damage": 200,
       "minecraft:repairable": {
-        "items": "IS NOT SUPPORTED IN 1.20.5! Search for a replacement"
+        "items": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement"
       }
     },
     "count": 1,
