@@ -12,7 +12,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferschwert",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_sword",
+        "fallback": "Copper Sword",
+        "type": "translatable"
+      },
       "minecraft:item_model": "copper_age:copper_sword",
       "minecraft:max_damage": 200,
       "minecraft:repairable": {
