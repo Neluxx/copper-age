@@ -12,7 +12,11 @@
   ],
   "result": {
     "components": {
-      "minecraft:item_name": "Kupferstiefel",
+      "minecraft:item_name": {
+        "translate": "item.copper_age.copper_boots",
+        "fallback": "Copper Boots",
+        "type": "translatable"
+      },
       "minecraft:item_model": "IS NOT SUPPORTED IN 1.20.5! Use custom model data instead",
       "minecraft:max_damage": 130,
       "minecraft:repairable": {
