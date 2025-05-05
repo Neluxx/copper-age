@@ -1,6 +1,30 @@
 {
     "pack": {
-        "description": "Copper Age resourcepack",
+        "description": {
+            "text": "Copper Tools and Armor\n",
+            "type": "text",
+            "color": "white",
+            "extra": [
+                {
+                    "text": "By Neluxx ",
+                    "color": "dark_gray",
+                    "click_event": {
+                        "action": "open_url",
+                        "url": "https://www.planetminecraft.com/member/neluxx/"
+                    },
+                    "extra": [
+                        {
+                            "text": "☕",
+                            "color": "dark_gray",
+                            "click_event": {
+                                "action": "open_url",
+                                "url": "https://buymeacoffee.com/neluxx"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "pack_format": 55,
         "supported_formats": {
             "min_inclusive": 46,
