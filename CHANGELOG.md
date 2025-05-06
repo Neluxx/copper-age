@@ -15,6 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [v1.2.3](https://github.com/Neluxx/copper-age/releases/tag/v1.2.3) - 2025-05-06
+
+### Changed
+- Update pack description
+- Update minimum resourcepack format to 34 to support version 1.21
+
 ## [v1.2.2](https://github.com/Neluxx/copper-age/releases/tag/v1.2.2) - 2025-05-05
 
 ### Changed
