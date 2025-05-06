@@ -6,22 +6,8 @@
             "color": "white",
             "extra": [
                 {
-                    "text": "By Neluxx ",
-                    "color": "dark_gray",
-                    "click_event": {
-                        "action": "open_url",
-                        "url": "https://www.planetminecraft.com/member/neluxx/"
-                    },
-                    "extra": [
-                        {
-                            "text": "☕",
-                            "color": "dark_gray",
-                            "click_event": {
-                                "action": "open_url",
-                                "url": "https://buymeacoffee.com/neluxx"
-                            }
-                        }
-                    ]
+                    "text": "By Neluxx ☕",
+                    "color": "black"
                 }
             ]
         },
