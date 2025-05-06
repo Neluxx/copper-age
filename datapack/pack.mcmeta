@@ -2,12 +2,21 @@
     "pack": {
         "description": {
             "text": "Copper Tools and Armor\n",
-            "type": "text",
-            "color": "white",
             "extra": [
                 {
-                    "text": "By Neluxx ☕",
-                    "color": "black"
+                    "text": "By Neluxx ",
+                    "color": "white",
+                    "extra": [
+                        {
+                            "text": "for ",
+                            "extra": [
+                                {
+                                    "text": "1.21 - 1.21.5",
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
