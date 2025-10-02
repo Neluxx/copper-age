@@ -24,14 +24,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v1.4.0](https://github.com/Neluxx/copper-age/releases/tag/v1.4.0) - 2025-07-03
 
 ### Changed
-- Update to datapack format 81 to support version 1.21.7
-- Update to resourcepack format 64 to support version 1.21.7
+- Update to data pack format 81 to support version 1.21.7
+- Update to resource pack format 64 to support version 1.21.7
 
 ## [v1.3.0](https://github.com/Neluxx/copper-age/releases/tag/v1.3.0) - 2025-06-23
 
 ### Changed
-- Update to datapack format 80 to support version 1.21.6
-- Update to resourcepack format 63 to support version 1.21.6
+- Update to data pack format 80 to support version 1.21.6
+- Update to resource pack format 63 to support version 1.21.6
 
 ## [v1.2.4](https://github.com/Neluxx/copper-age/releases/tag/v1.2.4) - 2025-05-07
 
@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Update pack description
-- Update minimum resourcepack format to 34 to support version 1.21
+- Update minimum resource pack format to 34 to support version 1.21
 
 ## [v1.2.2](https://github.com/Neluxx/copper-age/releases/tag/v1.2.2) - 2025-05-05
 
@@ -98,8 +98,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add custom items for copper tools, weapons and armor (based on iron)
 
 ### Changed
-- Update to datapack format 71 to support version 1.21.5
-- Update to resourcepack format 55 to support version 1.21.5
+- Update to data pack format 71 to support version 1.21.5
+- Update to resource pack format 55 to support version 1.21.5
 - Change max durability for copper tools, weapons and armor (between stone/leather and iron)
 
 ### Fixed
