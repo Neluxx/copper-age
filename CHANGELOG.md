@@ -8,6 +8,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Removed
+
+### Fixed
+
+## [v1.5.0](https://github.com/Neluxx/copper-age/releases/tag/v1.5.0) - 2025-10-02
+
+### Changed
+- Update to data pack format 81 to support version 1.21.8
+- Update to resource pack format 64 to support version 1.21.8
+
+## [v1.4.0](https://github.com/Neluxx/copper-age/releases/tag/v1.4.0) - 2025-07-03
+
+### Changed
+- Update to data pack format 81 to support version 1.21.7
+- Update to resource pack format 64 to support version 1.21.7
+
+## [v1.3.0](https://github.com/Neluxx/copper-age/releases/tag/v1.3.0) - 2025-06-23
+
+### Changed
+- Update to data pack format 80 to support version 1.21.6
+- Update to resource pack format 63 to support version 1.21.6
+
+## [v1.2.4](https://github.com/Neluxx/copper-age/releases/tag/v1.2.4) - 2025-05-07
+
+### Fixed
+- Add missing font color to pack descriptions
+
+## [v1.2.3](https://github.com/Neluxx/copper-age/releases/tag/v1.2.3) - 2025-05-06
+
+### Changed
+- Update pack description
+- Update minimum resource pack format to 34 to support version 1.21
+
+## [v1.2.2](https://github.com/Neluxx/copper-age/releases/tag/v1.2.2) - 2025-05-05
+
+### Changed
+- Update pack description
+
+## [v1.2.1](https://github.com/Neluxx/copper-age/releases/tag/v1.2.1) - 2025-04-15
+
+### Added
 - Add American English translation
 - Add New Zealand translation
 - Add British English translation
@@ -23,12 +67,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Turkish translation
 - Add Portuguese translation
 - Add Indonesian translation
-
-### Changed
-
-### Removed
-
-### Fixed
 
 ## [v1.2.0](https://github.com/Neluxx/copper-age/releases/tag/v1.2.0) - 2025-04-09
 
@@ -60,8 +98,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add custom items for copper tools, weapons and armor (based on iron)
 
 ### Changed
-- Update to datapack format 71 to support version 1.21.5
-- Update to resourcepack format 55 to support version 1.21.5
+- Update to data pack format 71 to support version 1.21.5
+- Update to resource pack format 55 to support version 1.21.5
 - Change max durability for copper tools, weapons and armor (between stone/leather and iron)
 
 ### Fixed
