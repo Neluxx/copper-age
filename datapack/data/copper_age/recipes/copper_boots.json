@@ -17,7 +17,7 @@
         "fallback": "Copper Boots",
         "type": "translatable"
       },
-      "minecraft:item_model": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Use custom model data instead",
+      "minecraft:custom_model_data": 1,
       "minecraft:max_damage": 130,
       "minecraft:equippable": {
         "slot": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement",
