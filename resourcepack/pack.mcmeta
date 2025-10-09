@@ -1,10 +1,31 @@
 {
     "pack": {
-        "description": "Copper Age resourcepack",
-        "pack_format": 55,
+        "description": {
+            "text": "Copper Tools and Armor\n",
+            "color": "gray",
+            "extra": [
+                {
+                    "text": "By Neluxx ",
+                    "color": "white",
+                    "extra": [
+                        {
+                            "text": "for ",
+                            "color": "gray",
+                            "extra": [
+                                {
+                                    "text": "1.20.5 - 1.21.8",
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "pack_format": 81,
         "supported_formats": {
             "min_inclusive": 32,
-            "max_inclusive": 55
+            "max_inclusive": 81
         }
     }
 }

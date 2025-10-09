@@ -1,16 +1,37 @@
 {
     "pack": {
-        "description": "Copper Age – Craftable Copper Tools and Armor",
-        "pack_format": 41,
+        "description": {
+            "text": "Copper Tools and Armor\n",
+            "color": "gray",
+            "extra": [
+                {
+                    "text": "By Neluxx ",
+                    "color": "white",
+                    "extra": [
+                        {
+                            "text": "for ",
+                            "color": "gray",
+                            "extra": [
+                                {
+                                    "text": "1.20.5 - 1.21.8",
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "pack_format": 81,
         "supported_formats": {
             "min_inclusive": 41,
-            "max_inclusive": 71
+            "max_inclusive": 81
         }
     },
     "overlays": {
         "entries": [
             {
-                "formats": {"min_inclusive": 48, "max_inclusive": 71},
+                "formats": {"min_inclusive": 48, "max_inclusive": 81},
                 "directory": "overlay_48"
             }
         ]
