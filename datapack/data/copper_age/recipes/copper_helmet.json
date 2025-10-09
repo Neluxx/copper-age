@@ -18,12 +18,7 @@
         "type": "translatable"
       },
       "minecraft:custom_model_data": 1,
-      "minecraft:max_damage": 110,
-      "minecraft:equippable": {
-        "slot": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement",
-        "equip_sound": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement",
-        "asset_id": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement"
-      }
+      "minecraft:max_damage": 110
     },
     "count": 1,
     "id": "minecraft:iron_helmet"
