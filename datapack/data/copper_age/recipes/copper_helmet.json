@@ -19,9 +19,6 @@
       },
       "minecraft:item_model": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Use custom model data instead",
       "minecraft:max_damage": 110,
-      "minecraft:repairable": {
-        "items": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement"
-      },
       "minecraft:equippable": {
         "slot": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement",
         "equip_sound": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement",

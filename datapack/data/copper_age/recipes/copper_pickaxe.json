@@ -22,10 +22,7 @@
         "type": "translatable"
       },
       "minecraft:item_model": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Use custom model data instead",
-      "minecraft:max_damage": 200,
-      "minecraft:repairable": {
-        "items": "IS NOT SUPPORTED BEFORE 1.21.2 (pack_format 57)! Search for a replacement"
-      }
+      "minecraft:max_damage": 200
     },
     "count": 1,
     "id": "minecraft:iron_pickaxe"
