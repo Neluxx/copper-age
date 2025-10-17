@@ -1,6 +1,10 @@
 package neluxx.copper_age;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,5 +24,21 @@ public class CopperAge implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+        // Register the datapack
+        ResourceManagerHelper.registerBuiltinResourcePack(
+                Identifier.of("copper_age", "datapack"),
+                FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+                ResourcePackActivationType.ALWAYS_ENABLED
+        );
+
+        // Register the resource pack
+        ResourceManagerHelper.registerBuiltinResourcePack(
+                Identifier.of("copper_age", "resourcepack"),
+                FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow(),
+                ResourcePackActivationType.DEFAULT_ENABLED
+        );
+
+        LOGGER.info("Copper Age datapack and resourcepack registered!");
 	}
 }
