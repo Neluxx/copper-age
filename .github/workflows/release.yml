@@ -23,8 +23,8 @@ jobs:
 
       - name: Create ZIP files
         run: |
-          cd /src/main/resources/datapack && zip -r ../${{ env.REPOSITORY }}-datapack-${{ env.TAG }}.zip *
-          cd /src/main/resources/resourcepack && zip -r ../${{ env.REPOSITORY }}-resourcepack-${{ env.TAG }}.zip *
+          cd src/main/resources/datapack && zip -r ../${{ env.REPOSITORY }}-datapack-${{ env.TAG }}.zip * && cd ..
+          cd resourcepack && zip -r ../${{ env.REPOSITORY }}-resourcepack-${{ env.TAG }}.zip *
 
       - name: Create release
         uses: softprops/action-gh-release@v2
