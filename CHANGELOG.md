@@ -15,10 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-## [v2.0.0](https://github.com/Neluxx/copper-age/releases/tag/v2.0.0) - 2025-10-17
+## [v2.0.0](https://github.com/Neluxx/copper-age/releases/tag/v2.0.0) - 2025-12-08
 
 ### Changed
-- Migrate datapack to fabric mod
+- Migrate datapack to fabric mod [#1](https://github.com/Neluxx/copper-age/issues/1)
 
 ## [v1.5.0](https://github.com/Neluxx/copper-age/releases/tag/v1.5.0) - 2025-10-02
 
