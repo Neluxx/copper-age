@@ -3,9 +3,9 @@
 	"id": "copper-age",
 	"version": "${version}",
 	"name": "Copper Age",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A minecraft fabric mod that adds copper tools, weapons, and armor with full trim support.",
 	"authors": [
-		"Me!"
+		"Neluxx"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
