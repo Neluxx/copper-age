@@ -5,6 +5,8 @@ Copper Age brings copper into its long-overdue role as a functional material in 
 This datapack and accompanying resourcepack add fully usable copper tools, weapons, and armor with unique models and full support for armor trims.
 The gear is balanced between stone and iron, making copper a viable early-game upgrade path. Designed for seamless integration with vanilla gameplay.
 
+> **This data pack will not be further developed, as Mojang has added copper tools and armor in version 1.21.9. This data pack is therefore no longer necessary. Thank you for the positive feedback!**
+
 ## Features
 
 - Adds crafting recipes for:
