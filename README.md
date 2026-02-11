@@ -1,7 +1,8 @@
-# Copper age
+# Copper Age
 
 Copper Age brings copper into its long-overdue role as a functional material in Minecraft.
-This datapack and accompanying resourcepack add fully usable copper tools, weapons, and armor — all with unique models and full support for armor trims.
+
+This datapack and accompanying resourcepack add fully usable copper tools, weapons, and armor with unique models and full support for armor trims.
 The gear is balanced between stone and iron, making copper a viable early-game upgrade path. Designed for seamless integration with vanilla gameplay.
 
 ## Features
@@ -23,9 +24,7 @@ The gear is balanced between stone and iron, making copper a viable early-game u
 - Move the resourcepack inside ``.minecraft/resourcepacks`` ([How to load a resourcepack?](https://minecraft.wiki/w/Resource_pack#Behavior))
 - Reload the world or run ``/reload``
 
-## Uninstalling
+## Support the Project
 
-- Delete the datapack from ``.minecraft/saves/<world>/datapacks``
-- Delete the resourcepack from ``.minecraft/resourcepacks``
-
-> **_NOTE:_** Copper items will no longer be craftable (already crafted items remain but have no texture)
+If you enjoy this datapack and find it useful, please consider giving the repository a star and following me on GitHub.  
+This helps the project gain visibility and motivates further development and maintenance.
