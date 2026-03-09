@@ -1,6 +1,6 @@
-# Copper Age
+# Copper Tools and Armor
 
-Copper Age brings copper into its long-overdue role as a functional material in Minecraft.
+Copper Tools and Armor brings copper into its long-overdue role as a functional material in Minecraft.
 
 This datapack and accompanying resourcepack add fully usable copper tools, weapons, and armor with unique models and full support for armor trims.
 The gear is balanced between stone and iron, making copper a viable early-game upgrade path. Designed for seamless integration with vanilla gameplay.
