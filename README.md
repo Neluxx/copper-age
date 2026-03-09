@@ -21,7 +21,7 @@ The gear is balanced between stone and iron, making copper a viable early-game u
 
 ## Installation
 
-- Download the [datapack and resourcepack](https://github.com/Neluxx/copper-age/releases/latest)
+- Download the [datapack and resourcepack](https://github.com/Neluxx/copper-tools-and-armor/releases/latest)
 - Move the datapack inside ``.minecraft/saves/<world>/datapacks`` ([How to find .minecraft?](https://minecraft.wiki/w/.minecraft#Locating))
 - Move the resourcepack inside ``.minecraft/resourcepacks`` ([How to load a resourcepack?](https://minecraft.wiki/w/Resource_pack#Behavior))
 - Reload the world or run ``/reload``
